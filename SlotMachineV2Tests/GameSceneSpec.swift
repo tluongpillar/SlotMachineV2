@@ -34,6 +34,12 @@ class GameSceneSpec: QuickSpec {
             it("should display the display node"){
                 expect(gameScene.displayNode.parent).to(be(gameScene))
             }
+            
+            it("should display slotMachine's slots in displayNode") {
+                expect(gameScene.displayNode.text).to(equal(gameScene.slotMachine.slots.reduce("") {text, slot in
+                    return text + " " + slot
+                }))
+            }
         }
     }
 }

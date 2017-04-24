@@ -15,7 +15,9 @@ class GameScene: SKScene {
     
     override func sceneDidLoad() {
         slotMachine = SlotMachine()
-        displayNode = SKLabelNode()
+        let slotText = slotMachine.slots.reduce("", {text, slot in return text + " " + slot})
+        displayNode = SKLabelNode(text: slotText)
         self.addChild(displayNode)
     }
+    
 }
