@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SlotMachineV2Tests/GameSceneSpec.swift"
+            timestampString = "514142883.66676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachineV2Tests.GameSceneSpec.(spec () -&gt; ()).(closure #1).(closure #4)"
+                  moduleName = "SlotMachineV2Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tluong/Documents/xcodeProjects/SlotMachineV2/SlotMachineV2Tests/GameSceneSpec.swift"
+                  timestampString = "514142635.67521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachineV2Tests.GameSceneSpec.(spec () -&gt; ()).(closure #1).(closure #4).(implicit closure #1)"
+                  moduleName = "SlotMachineV2Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tluong/Documents/xcodeProjects/SlotMachineV2/SlotMachineV2Tests/GameSceneSpec.swift"
+                  timestampString = "514142635.676902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

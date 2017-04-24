@@ -10,8 +10,12 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
+    var slotMachine: SlotMachine!
+    var displayNode: SKLabelNode!
     
     override func sceneDidLoad() {
+        slotMachine = SlotMachine()
+        displayNode = SKLabelNode()
+        self.addChild(displayNode)
     }
-
 }

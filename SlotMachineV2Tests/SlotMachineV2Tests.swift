@@ -26,7 +26,6 @@ class SlotMachineSpec: QuickSpec {
                 it("should have slots"){
                     expect(slotMachine.slots).to(equal(["*","*","*"]))
                 }
-
             }
             
             context("pullHandle") {
